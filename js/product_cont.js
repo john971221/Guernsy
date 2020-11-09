@@ -1,7 +1,7 @@
 $(function(){
     //start data.json
     $.ajax({
-        url:'/data.json',
+        url:'../data.json',
         type:'GET',
         success:function(data){
             console.log($(data).find('Product src'))
