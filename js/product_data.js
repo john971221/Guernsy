@@ -121,7 +121,7 @@ $.ajax({
         
     },
     error: function () {
-        alert("ajax error");
+        alert("기술적☆오류☆발생");
     }
 
 
